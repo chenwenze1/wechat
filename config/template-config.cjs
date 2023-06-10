@@ -34,7 +34,7 @@ const TEMPLATE_CONFIG = [
       ---
       
       下一休息日综合提醒: {{holidaytts.DATA}}
-      
+      照片墙{{openUrl.DATA}}
     `
   },
   {
