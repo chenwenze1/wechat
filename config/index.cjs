@@ -15,8 +15,8 @@ const USER_CONFIG = {
 
   PROVINCE: '辽宁',
   CITY: '大连',
-  
-
+  IS_SHOW_COLOR: true,
+  LITERARY_PREFERENCE: '网络',
   USERS: [
     {
       // 想要发送的人的名字
@@ -27,6 +27,9 @@ const USER_CONFIG = {
       useTemplateId: 'dTT4lbRRiidGcoS4m1Ups7fOCSPB8qVh1pz9c9VNpt4',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '06-23',
+       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
+      horoscopeDateType: '今日',
+       openUrl: 'https://wangxinleo.cn',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -35,6 +38,9 @@ const USER_CONFIG = {
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
           type: '生日', name: '亦喆', year: '2001', date: '06-23',
+        },
+         {
+          type: '*生日', name: '亦喆', year: '2001', date: '05-06',
         },
         {
           type: '节日', name: '相识纪念日', year: '2023', date: '06-01',
