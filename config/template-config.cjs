@@ -35,7 +35,7 @@ const TEMPLATE_CONFIG = [
       🗓下一休息日综合提醒: {{holidaytts.DATA}}
      
      ---
-     **是你让我在燃起心火**
+     **             是你让我在燃起心火**
     `
   },
   {
