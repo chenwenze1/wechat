@@ -17,8 +17,8 @@ const USER_CONFIG = {
 
   PROVINCE: '辽宁',
   CITY: '大连',
-  IS_SHOW_COLOR: true,
-  LITERARY_PREFERENCE: '网络',
+  // IS_SHOW_COLOR: true,
+ //  LITERARY_PREFERENCE: '网络',
   USERS: [
     {
       // 想要发送的人的名字
@@ -35,17 +35,7 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '2001', date: '05-06',
-        },
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '亦喆', year: '2001', date: '06-23',
-        },
-         {
           type: '*生日', name: '亦喆', year: '2001', date: '05-06',
-        },
-        {
-          type: '节日', name: '相识纪念日', year: '2023', date: '06-01',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
