@@ -2,13 +2,9 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱的, 早上好',
+    title: '亲爱的亦喆, 早上好',
     desc: `
-      **{{date.DATA}}**
-      
-      下个休息日：{{holidaytts.DATA}}
-      
-      ---
+      **{{🕰date.DATA}}**
       
       城市：{{city.DATA}}
       
@@ -20,19 +16,25 @@ const TEMPLATE_CONFIG = [
       
       风级: {{wind_scale.DATA}}
       
+      天气温馨语: {{notice.DATA}}
+      
       {{comprehensive_horoscope.DATA}}
       
       ---
       
-      今天是我们相识的第{{love_day.DATA}}天
+      今天是我们在一起的第{{love_day.DATA}}天
       
       {{birthday_message.DATA}}
       
       ---
       
-      {{moment_copyrighting.DATA}}
+      {{note_en.DATA}}
+      {{note_ch}}
       
-      {{poetry_title.DATA}} {{poetry_content.DATA}}
+      ---
+      
+      下一休息日综合提醒: {{holidaytts.DATA}}
+      
     `
   },
   {
