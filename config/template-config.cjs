@@ -8,11 +8,11 @@ const TEMPLATE_CONFIG = [
       
       🌏城市：{{city.DATA}}
       
-      天气：{{weather.DATA}}
+      🏙天气: {{weather.DATA}}
       
-      🌡气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
+      🌡气温(最高/最低): {{max_temperature.DATA}} / {{min_temperature.DATA}}
       
-      🌪风向: {{wind_direction.DATA}} {{wind_scale.DATA}} 
+      🌪风向: {{wind_direction.DATA}} / {{wind_scale.DATA}} 
       
       🌝天气温馨语: {{notice.DATA}}
       
@@ -25,6 +25,7 @@ const TEMPLATE_CONFIG = [
       🎂{{birthday_message.DATA}}
       
       ---
+      😏土味: {{}}
       
       📔{{note_en.DATA}}
       
@@ -34,8 +35,10 @@ const TEMPLATE_CONFIG = [
       
       🗓下一休息日综合提醒: {{holidaytts.DATA}}
      
-     ---
-     **             是你让我在燃起心火**
+     
+     
+     
+     
     `
   },
   {
