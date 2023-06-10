@@ -8,7 +8,7 @@ const TEMPLATE_CONFIG = [
       
       🌏城市：{{city.DATA}}
       
-      🏙天气: {{weather.DATA}}
+      ☀天气: {{weather.DATA}}
       
       🌡气温(最高/最低): {{max_temperature.DATA}} / {{min_temperature.DATA}}
       
@@ -25,7 +25,7 @@ const TEMPLATE_CONFIG = [
       🎂{{birthday_message.DATA}}
       
       ---
-      😏土味: {{}}
+      😏土味: {{earthy_love_words.DATA}}
       
       📔{{note_en.DATA}}
       
@@ -39,6 +39,18 @@ const TEMPLATE_CONFIG = [
      
      
      
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     ---
     `
   },
   {
