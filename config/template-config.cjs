@@ -2,9 +2,9 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱的亦喆, 早上好',
+    title: '亲爱的亦喆❤️, 早上好',
     desc: `
-      **{{🕰date.DATA}}**
+      **{{date.DATA}}**
       
       城市：{{city.DATA}}
       
@@ -22,19 +22,20 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      今天是我们在一起的第{{love_day.DATA}}天
+      ❤️今天是我们在一起的第{{love_day.DATA}}天✨
       
       {{birthday_message.DATA}}
       
       ---
       
       {{note_en.DATA}}
-      {{note_ch}}
+      
+      {{note_ch.DATA}}
       
       ---
       
       下一休息日综合提醒: {{holidaytts.DATA}}
-      照片墙{{openUrl.DATA}}
+     
     `
   },
   {
