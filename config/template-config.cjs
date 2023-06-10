@@ -2,40 +2,40 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱的亦喆❤️, 早上好',
+    title: '我心爱的狗东西💕早上好',
     desc: `
-      **{{date.DATA}}**
+      ⏰**{{date.DATA}}**
       
-      城市：{{city.DATA}}
+      🌏城市：{{city.DATA}}
       
       天气：{{weather.DATA}}
       
-      气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
+      🌡气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
       
-      风向: {{wind_direction.DATA}}
+      🌪风向: {{wind_direction.DATA}} {{wind_scale.DATA}} 
       
-      风级: {{wind_scale.DATA}}
+      🌝天气温馨语: {{notice.DATA}}
       
-      天气温馨语: {{notice.DATA}}
-      
-      {{comprehensive_horoscope.DATA}}
+      🎴{{comprehensive_horoscope.DATA}}
       
       ---
       
       ❤️今天是我们在一起的第{{love_day.DATA}}天✨
       
-      {{birthday_message.DATA}}
+      🎂{{birthday_message.DATA}}
       
       ---
       
-      {{note_en.DATA}}
+      📔{{note_en.DATA}}
       
-      {{note_ch.DATA}}
+      📔{{note_ch.DATA}}
       
       ---
       
-      下一休息日综合提醒: {{holidaytts.DATA}}
+      🗓下一休息日综合提醒: {{holidaytts.DATA}}
      
+     ---
+     **是你让我在燃起心火**
     `
   },
   {
