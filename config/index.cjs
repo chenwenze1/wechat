@@ -15,7 +15,47 @@ const USER_CONFIG = {
 
   PROVINCE: '辽宁',
   CITY: '大连',
+  
+SWITCH: {
+    /** 每日天气 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    weather: true,
 
+    /** 节假日 */
+    // 下一休息日综合提醒, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    holidaytts: true,
+
+    /** 每日N句 */
+    // 金山每日一句, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    CIBA: true,
+    
+    // 每日一言, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    oneTalk: true,
+    
+    // 土味情话(彩虹屁), 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    earthyLoveWords: true,
+    
+    // 朋友圈文案, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    momentCopyrighting: true,
+    
+    // 毒鸡汤, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    poisonChickenSoup: true,
+    
+    // 古诗古文, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    poetry: true,
+
+    /** 星座运势 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    horoscope: true,
+  
+    /** 生日消息和节日消息 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    birthdayMessage: true,
+  
+    /** 学生课表 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    courseSchedule: true,
+  },
   USERS: [
     {
       // 想要发送的人的名字
@@ -23,7 +63,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ogGRg6avgLO8S5XUkOd6pNbppZAc',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'n-mgk7AmZUypk220iDQX6L9ziwqFHJhurAaYtoU4DeQ',
+      useTemplateId: 'oh55dv_iMBkeD6CPy6rxSopsA0CK8HyWB4gHXlLWROs',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '06-23',
       festivals: [
@@ -33,7 +73,7 @@ const USER_CONFIG = {
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '李四', year: '2001', date: '06-23',
+          type: '生日', name: '亦喆', year: '2001', date: '06-23',
         },
         {
           type: '节日', name: '相识纪念日', year: '2023', date: '06-01',
