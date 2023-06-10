@@ -14,7 +14,7 @@ const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '',
-
+  IS_SHOW_COLOR: true,
   PROVINCE: '辽宁',
   CITY: '大连',
   // IS_SHOW_COLOR: true,
